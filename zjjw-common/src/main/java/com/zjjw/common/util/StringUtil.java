@@ -8,7 +8,7 @@ package com.zjjw.common.util;
  * @since JDK 1.8
  */
 public class StringUtil {
-    public StringUtil() {
+    private StringUtil() {
     }
 
     public static boolean isNullOrEmpty(String str) {

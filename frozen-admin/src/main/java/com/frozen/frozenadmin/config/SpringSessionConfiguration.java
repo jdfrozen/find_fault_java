@@ -20,7 +20,6 @@ public class SpringSessionConfiguration {
     public void onSessionExpired(SessionExpiredEvent expiredEvent) {
         String sessionId = expiredEvent.getSessionId();
         log.info("Session失效事件:"+sessionId);
-
     }
 
     /**
